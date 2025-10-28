@@ -1,4 +1,4 @@
-baseURL = "https://cuti-duck.github.io/hugo-aws-project/"
+baseURL = "/"
 title = "Hugo AWS Project"
 
 # Change the default theme to be use when building the site with Hugo

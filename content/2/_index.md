@@ -237,12 +237,14 @@ Our AWS-based video sharing platform addresses these challenges by:
 ### Project Duration: 8 Weeks (2 Months)
 
 **Week 1: Setup & Planning**
+
 - AWS account setup and IAM configuration
 - Project requirements finalization
 - Team roles assignment
 - Basic infrastructure deployment (S3, DynamoDB, Cognito)
 
 **Week 2-3: Backend Development**
+
 - RESTful APIs with Node.js/Express
 - JWT authentication with Cognito
 - Video upload endpoints
@@ -250,6 +252,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 - App Runner deployment
 
 **Week 4-5: Frontend Development**
+
 - React application with responsive design
 - User authentication flows
 - Video upload interface
@@ -257,12 +260,14 @@ Our AWS-based video sharing platform addresses these challenges by:
 - Amplify deployment
 
 **Week 6: Integration & Streaming**
+
 - Frontend-backend integration
 - CloudFront setup for video delivery
 - Basic streaming functionality
 - Testing and bug fixes
 
 **Week 7: Security & Testing**
+
 - WAF deployment
 - SSL/TLS certificates
 - Security testing
@@ -270,6 +275,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 - Load testing
 
 **Week 8: Final Deployment**
+
 - Production deployment
 - User acceptance testing
 - Documentation completion
@@ -278,18 +284,22 @@ Our AWS-based video sharing platform addresses these challenges by:
 ### Key Milestones
 
 **Milestone 1 (Week 1):** Infrastructure Ready
+
 - AWS services configured
 - Development environment accessible
 
 **Milestone 2 (Week 3):** Backend Complete
+
 - APIs functional
 - Authentication working
 
 **Milestone 3 (Week 5):** Frontend Complete
+
 - UI fully developed
 - Basic video upload/playback working
 
 **Milestone 4 (Week 8):** Production Launch
+
 - System deployed and tested
 - Documentation complete
 
