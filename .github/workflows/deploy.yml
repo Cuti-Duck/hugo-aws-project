@@ -1,9 +1,9 @@
-name: Build and deploy Hugo site to gh-pages
+name: Build and Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main # branch chứa source Hugo
 
 permissions:
   contents: write
@@ -11,14 +11,14 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: true # cần nếu theme là submodule
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -29,7 +29,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
