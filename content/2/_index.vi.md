@@ -68,7 +68,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 
 ## 3. Kiến trúc Giải pháp
 
-![Sơ đồ Kiến trúc](/images/architecturediagram.png)
+![Sơ đồ Kiến trúc](https://cuti-duck.github.io/hugo-aws-project/images/architecturediagram.png)
 
 ### Các Dịch vụ AWS Được Sử dụng
 
@@ -237,12 +237,14 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 ### Thời gian Dự án: 8 Tuần (2 Tháng)
 
 **Tuần 1: Thiết lập & Lên kế hoạch**
+
 - Thiết lập tài khoản AWS và cấu hình IAM
 - Hoàn thiện yêu cầu dự án
 - Phân công vai trò nhóm
 - Triển khai cơ sở hạ tầng cơ bản (S3, DynamoDB, Cognito)
 
 **Tuần 2-3: Phát triển Backend**
+
 - RESTful APIs với Node.js/Express
 - Xác thực JWT với Cognito
 - Endpoints tải lên video
@@ -250,6 +252,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 - Triển khai App Runner
 
 **Tuần 4-5: Phát triển Frontend**
+
 - Ứng dụng React với thiết kế responsive
 - Luồng xác thực người dùng
 - Giao diện tải lên video
@@ -257,12 +260,14 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 - Triển khai Amplify
 
 **Tuần 6: Tích hợp & Streaming**
+
 - Tích hợp frontend-backend
 - Thiết lập CloudFront cho phân phối video
 - Chức năng streaming cơ bản
 - Kiểm thử và sửa lỗi
 
 **Tuần 7: Bảo mật & Kiểm thử**
+
 - Triển khai WAF
 - Chứng chỉ SSL/TLS
 - Kiểm thử bảo mật
@@ -270,6 +275,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 - Kiểm thử tải
 
 **Tuần 8: Triển khai Cuối cùng**
+
 - Triển khai sản xuất
 - Kiểm thử chấp nhận người dùng
 - Hoàn thành tài liệu
@@ -278,18 +284,22 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 ### Các Cột mốc Chính
 
 **Cột mốc 1 (Tuần 1):** Cơ sở hạ tầng Sẵn sàng
+
 - Dịch vụ AWS được cấu hình
 - Môi trường phát triển có thể truy cập
 
 **Cột mốc 2 (Tuần 3):** Backend Hoàn thành
+
 - APIs hoạt động
 - Xác thực đang hoạt động
 
 **Cột mốc 3 (Tuần 5):** Frontend Hoàn thành
+
 - UI được phát triển đầy đủ
 - Tải lên/phát lại video cơ bản hoạt động
 
 **Cột mốc 4 (Tuần 8):** Ra mắt Sản xuất
+
 - Hệ thống được triển khai và kiểm thử
 - Tài liệu hoàn chỉnh
 
@@ -361,44 +371,28 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 
 ## 8. Kết quả Mong đợi
 
-### Performance Metrics
+### Chỉ số Hiệu suất
 
-**System Performance:**
+**Hiệu suất Hệ thống:**
 
-- Video upload success rate: >95%
-- Streaming latency: <3 seconds
-- System uptime: >99%
-- Concurrent users: 100+
-- Page load times: <2 seconds
+- Tỷ lệ tải video thành công: >95%
+- Độ trễ streaming: <3 giây
+- Thời gian hoạt động hệ thống: >99%
+- Người dùng đồng thời: 100+
+- Thời gian tải trang: <2 giây
 
-**Learning Assessment:**
+### Tiêu chí Thành công
 
-- AWS certification readiness
-- Portfolio-quality project
-- Cloud architecture understanding
-- Technical decision explanation ability
-- Modern development tools proficiency
+**Yêu cầu MVP:**
 
-### Success Criteria
+- Đăng ký/đăng nhập người dùng
+- Tải lên/phát lại video cơ bản
+- Xác thực an toàn
+- Giao diện responsive
+- Giám sát hệ thống
 
-**MVP Requirements:**
+**Mục tiêu Mở rộng:**
 
-- User registration/login
-- Basic video upload/playback
-- Secure authentication
-- Responsive interface
-- System monitoring
-
-**Stretch Goals:**
-
-- Live streaming capabilities
-- Advanced analytics
-- Social features
-- Mobile companion app
-
-**Academic Excellence:**
-
-- Comprehensive documentation
-- Successful project defense
-- High grades và instructor approval
-- Peer recognition
+- Khả năng streaming trực tiếp
+- Phân tích nâng cao
+- Tính năng xã hội
