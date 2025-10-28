@@ -68,7 +68,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 
 ## 3.Solution Architecture
 
-![Architecture Diagram](./images/architecturediagram.png)
+![Architecture Diagram](/images/architecturediagram.png)
 
 ### AWS Services Used
 
