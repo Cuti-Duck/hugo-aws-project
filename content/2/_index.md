@@ -68,7 +68,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 
 ## 3.Solution Architecture
 
-![Architecture Diagram](../images/architecturediagram.png)
+![Architecture Diagram](https://cuti-duck.github.io/hugo-aws-project/images/architecturediagram.png)
 
 ### AWS Services Used
 
