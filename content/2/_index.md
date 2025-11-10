@@ -68,7 +68,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 
 ## 3.Solution Architecture
 
-![Architecture Diagram](https://cuti-duck.github.io/hugo-aws-project/images/architecturediagram.png)
+![Architecture Diagram](https://cuti-duck.github.io/hugo-aws-project/images/architecdiagram.png)
 
 ### AWS Services Used
 
@@ -88,7 +88,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 
 **CloudFront:** Global CDN for fast content delivery and video streaming with edge caching.
 
-**Amazon Interactive Video Service:** Real-time video streaming service for live broadcasts and on-demand content.
+**Amazon IVS (Interactive Video Service):** Real-time video streaming service for live broadcasts and on-demand content with low latency.
 
 **CloudWatch:** Monitoring and logging service for application performance, metrics, and alerts.
 
@@ -135,6 +135,23 @@ Our AWS-based video sharing platform addresses these challenges by:
 - CloudWatch dashboards for real-time metrics
 - Custom metrics for user engagement tracking
 - Automated alerting for system health
+
+### Use Cases
+
+**Live Streaming Events:**
+
+- Real-time broadcasting of conferences, webinars, and corporate events
+- Multi-bitrate streaming for optimal viewer experience
+
+**Video On Demand (VOD):**
+
+- Upload and share educational content, tutorials, and training materials
+- Secure content access with user permissions
+
+**Social Video Sharing:**
+
+- User-generated content sharing
+- Community features with comments and ratings
 
 ## 4.Technical Implementation
 

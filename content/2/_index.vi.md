@@ -68,7 +68,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 
 ## 3. Kiến trúc Giải pháp
 
-![Sơ đồ Kiến trúc](https://cuti-duck.github.io/hugo-aws-project/images/architecturediagram.png)
+![Architecture Diagram](https://cuti-duck.github.io/hugo-aws-project/images/architecdiagram.png)
 
 ### Các Dịch vụ AWS Được Sử dụng
 
@@ -88,7 +88,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 
 **CloudFront:** CDN toàn cầu để phân phối nội dung nhanh và streaming video với bộ nhớ đệm edge.
 
-**Amazon Interactive Video Service:** Dịch vụ streaming video thời gian thực cho phát sóng trực tiếp và nội dung theo yêu cầu.
+**Amazon IVS (Interactive Video Service):** Dịch vụ streaming video thời gian thực cho phát sóng trực tiếp và nội dung theo yêu cầu với độ trễ thấp.
 
 **CloudWatch:** Dịch vụ giám sát và ghi log cho hiệu suất ứng dụng, số liệu và cảnh báo.
 
@@ -135,6 +135,23 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 - Dashboard CloudWatch cho số liệu thời gian thực
 - Số liệu tùy chỉnh cho theo dõi tương tác người dùng
 - Cảnh báo tự động cho sức khỏe hệ thống
+
+### Các Trường hợp Sử dụng (Use Cases)
+
+**Phát sóng Trực tiếp Sự kiện:**
+
+- Phát trực tiếp hội nghị, hội thảo và sự kiện doanh nghiệp
+- Streaming đa bitrate cho trải nghiệm người xem tối ưu
+
+**Video theo Yêu cầu (VOD):**
+
+- Tải lên và chia sẻ nội dung giáo dục, hướng dẫn và tài liệu đào tạo
+- Truy cập nội dung an toàn với quyền người dùng
+
+**Chia sẻ Video Xã hội:**
+
+- Chia sẻ nội dung do người dùng tạo
+- Tính năng cộng đồng với bình luận và đánh giá
 
 ## 4. Triển khai Kỹ thuật
 
