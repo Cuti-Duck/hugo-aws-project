@@ -355,6 +355,7 @@ Our AWS-based video sharing platform addresses these challenges by:
 - CodePipeline & CodeBuild: $1-3/month
 - ERC: $0-1/month
 
+![calculator](https://calculator.aws/#/estimate?id=65af3e3b68fb25547d186eeef7e6f5992a51413e)
 **Total Monthly Cost: $17-42/month**
 
 ## 7.Risks Assessment

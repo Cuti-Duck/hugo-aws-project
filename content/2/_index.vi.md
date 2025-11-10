@@ -355,6 +355,7 @@ Nền tảng chia sẻ video dựa trên AWS của chúng tôi giải quyết c�
 - CodePipeline & CodeBuild: $1-3/tháng
 - ECR: $0-1/tháng
 
+![calculator](https://calculator.aws/#/estimate?id=65af3e3b68fb25547d186eeef7e6f5992a51413e)
 **Tổng Chi phí Hàng tháng: $17-42/tháng**
 
 ## 7. Đánh giá Rủi ro
